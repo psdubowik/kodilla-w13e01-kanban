@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.board {
+    text-align: center;
+}
+
+.column-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 0 16px;
+}
+
+.column {
+    display: inline-block;
+    border: 2px solid rgba(13, 25, 138, 0.596);
+    margin: 25px;
+    padding: 10px 25px;
+    width: 300px;
+    height: auto;
+    min-height: 400px;
+    max-height: 100vh;
+    font-family: Arial;
+    vertical-align: top; 
+}
+
+.card {
+    margin: 5px 10px;
+    text-align: center;    
+}
+
+.column-card-list {
+    padding: 0;
+}
