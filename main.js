@@ -21,11 +21,11 @@ $(function() {
             var $columnAddCard = $("<button>").addClass("add-card btn btn-primary").text("Add new card");
             var $columnDelete = $("<button>").addClass("btn-delete btn btn-warning").text('x');
             
-            $columnDelete.click(function(){
+            $columnDelete.on("click", function(){
                 self.removeColumn();
             });
 
-            $columnAddCard.click(function() {
+            $columnAddCard.on("click", function() {
                 self.addCard(new Card(prompt("Enter the name of the card")));
             });
 
@@ -59,7 +59,7 @@ $(function() {
             var $cardDescription = $("<p>").addClass("card-description").text(self.description);
             var $cardDelete = $("<button>").addClass("btn-delete btn btn-warning").text('x');
 
-            $cardDelete.click(function() {
+            $cardDelete.on("click", function() {
                 self.removeCard();
             });
 
@@ -113,5 +113,4 @@ $(function() {
     toDoColumn.addCard(card1);
     doingColumn.addCard(card2);
     doneColumn.addCard(card3);
-
 });
