@@ -1,6 +1,6 @@
 # Kanban board - Kodilla FE Bootcamp
 
-This is a solution to an assignment from Kodilla FE Bootcamp (week12e04) regarding creating countries search engine.
+This is a solution to an assignment from Kodilla FE Bootcamp (week11e03) regarding creating Kanban Board.
 
 ## Getting Started
 
@@ -13,4 +13,4 @@ We strongly advise you to use Chrome and the JS Console.
 
 * **PSD** - *exercise* - [URLName](URL)
 
-See also the list of [Contributors](https://github.com/psdubowik/kodilla-w12e04-kanban/graphs/contributors) who participated in this project.
+See also the list of [Contributors](https://github.com/psdubowik/kodilla-w11e03-kanban/graphs/contributors) who participated in this project.

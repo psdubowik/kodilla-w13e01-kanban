@@ -1,0 +1,24 @@
+{
+    "name": "kodillaFE_week12ex04_kanban",
+    "version": "1.0.0",
+    "description": "Kanban board",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/psdubowik/kodilla-w12e04-kanban.git"
+    },
+    "keywords": [
+      "javascript",
+      "twitter"
+    ],
+    "author": "PSD",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/psdubowik/kodilla-w12e04-kanban/issues"
+    },
+    "homepage": "https://github.com/psdubowik/kodilla-w12e04-kanban#readme"
+  }
+  
